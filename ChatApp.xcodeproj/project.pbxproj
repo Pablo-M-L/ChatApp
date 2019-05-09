@@ -19,6 +19,7 @@
 		84FC84882281F7D10056F2F3 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FC84862281F7D10056F2F3 /* MessageCell.swift */; };
 		84FC84892281F7D10056F2F3 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FC84872281F7D10056F2F3 /* MessageCell.xib */; };
 		84FC848B2282E6150056F2F3 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FC848A2282E6150056F2F3 /* Message.swift */; };
+		E62D8EE9D7783C63D177B6BB /* Pods_ChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A0A88B55863849C3585B1D /* Pods_ChatApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */

@@ -60,7 +60,7 @@ class ChatViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     @IBAction func logoutPressed(_ sender: Any) {
-        /*
+        
         let alertaController = UIAlertController(title: "CERRAR SESION", message: """
                                 Está seguro que desea
                                 cerrar la sesion y volver
@@ -77,8 +77,7 @@ class ChatViewController: UIViewController, UITableViewDataSource, UITableViewDe
         alertaController.addAction(btnAction)
         alertaController.addAction(btnCancelar)
         
-        self.show(alertaController, sender: nil)
-        */
+        present(alertaController,animated: true,completion: nil)
         cerrarSesion()
         
         

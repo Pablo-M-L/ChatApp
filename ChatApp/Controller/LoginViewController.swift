@@ -54,7 +54,7 @@ class LoginViewController: UIViewController {
                     
                     alertaController.addAction(btnAction)
                     
-                    self.show(alertaController, sender: nil)
+                    self.present(alertaController,animated: true,completion: nil)
                 }
 
             }

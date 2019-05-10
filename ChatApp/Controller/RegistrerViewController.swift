@@ -41,7 +41,8 @@ class RegistrerViewController: UIViewController {
             
             alertaController.addAction(btnAction)
             
-            self.show(alertaController, sender: nil)
+            present(alertaController,animated: true,completion: nil)
+            //self.show(alertaController, sender: nil)
             return
         }
         
@@ -57,7 +58,7 @@ class RegistrerViewController: UIViewController {
             
             alertaController.addAction(btnAction)
             
-            self.show(alertaController, sender: nil)
+            present(alertaController,animated: true, completion: nil)
             return
         }
         
@@ -71,7 +72,7 @@ class RegistrerViewController: UIViewController {
             
             alertaController.addAction(btnAction)
             
-            self.show(alertaController, sender: nil)
+            present(alertaController, animated: true, completion: nil)
             return
         }
         
@@ -86,7 +87,7 @@ class RegistrerViewController: UIViewController {
                 
                 alertaController.addAction(btnAction)
                 
-                self.show(alertaController, sender: nil)
+                present(alertaController,animated: true,completion: nil)
                 return
         }
             
@@ -124,7 +125,7 @@ class RegistrerViewController: UIViewController {
                 
                 alertaController.addAction(btnAction)
                 
-                self.show(alertaController, sender: nil)
+                self.present(alertaController, animated: true, completion: nil)
                
                 self.performSegue(withIdentifier: "FromRegistryToChat", sender: self)
             }
@@ -140,7 +141,8 @@ class RegistrerViewController: UIViewController {
             
             alertaController.addAction(btnAction)
             
-            self.show(alertaController, sender: nil)
+            present(alertaController,animated: true, completion: nil)
+            //self.show(alertaController, sender: nil)
             
             self.performSegue(withIdentifier: "FromRegistryToChat", sender: self)
         }
